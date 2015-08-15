@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2685A9971B7F622200B2666D /* PresentExcerciseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685A9961B7F622200B2666D /* PresentExcerciseController.swift */; };
 		C1FA52C71B7F2FBC00E315DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA52C61B7F2FBC00E315DF /* AppDelegate.swift */; };
 		C1FA52C91B7F2FBC00E315DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA52C81B7F2FBC00E315DF /* ViewController.swift */; };
 		C1FA52CC1B7F2FBC00E315DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52CA1B7F2FBC00E315DF /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2685A9961B7F622200B2666D /* PresentExcerciseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentExcerciseController.swift; sourceTree = "<group>"; };
 		C1FA52C11B7F2FBC00E315DF /* PersonalTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FA52C51B7F2FBC00E315DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1FA52C61B7F2FBC00E315DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				C1FA52EE1B7F2FCB00E315DF /* InterfaceController.swift */,
 				C1FA52F01B7F2FCB00E315DF /* Images.xcassets */,
 				C1FA52EC1B7F2FCB00E315DF /* Supporting Files */,
+				2685A9961B7F622200B2666D /* PresentExcerciseController.swift */,
 			);
 			path = "PersonalTrainer WatchKit Extension";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2685A9971B7F622200B2666D /* PresentExcerciseController.swift in Sources */,
 				C1FA52EF1B7F2FCB00E315DF /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -643,6 +647,7 @@
 				C1FA52E21B7F2FBC00E315DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FA52E31B7F2FBC00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainerTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +656,7 @@
 				C1FA52E51B7F2FBC00E315DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FA53031B7F2FCB00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainer WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +665,7 @@
 				C1FA53051B7F2FCB00E315DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1FA53061B7F2FCB00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainer WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +674,7 @@
 				C1FA53081B7F2FCB00E315DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

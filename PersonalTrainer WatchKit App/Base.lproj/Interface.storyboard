@@ -8,8 +8,50 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PersonalTrainer_WatchKit_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PersonalTrainer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Crunches" id="iGE-r2-WzQ">
+                            <connections>
+                                <segue destination="3zl-JC-56R" kind="push" identifier="crunchesSegway" id="vG2-fj-PDM"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Twists" id="iRb-Fj-0uy">
+                            <connections>
+                                <segue destination="3zl-JC-56R" kind="push" identifier="twistsSegway" id="z7o-Rf-3kA"/>
+                            </connections>
+                        </button>
+                        <slider width="1" alignment="left" value="1" minimum="1" maximum="10" steps="10" id="XcR-iC-ajE">
+                            <connections>
+                                <action selector="exceriseCounter:" destination="AgC-eL-Hgc" id="2YM-vu-PyD"/>
+                            </connections>
+                        </slider>
+                        <label alignment="left" text="0 repeats" id="P4s-yf-ncT"/>
+                    </items>
+                    <connections>
+                        <outlet property="exceriseLabel" destination="P4s-yf-ncT" id="gbf-hJ-7Yf"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="333" y="293"/>
+        </scene>
+        <!--AnimationController-->
+        <scene sceneID="nLC-iK-RXj">
+            <objects>
+                <controller identifier="AnimationController" id="3zl-JC-56R" customClass="PresentExcerciseController" customModule="PersonalTrainer_WatchKit_Extension">
+                    <items>
+                        <imageView width="136" height="83" alignment="left" id="WsP-aI-zzB"/>
+                        <label alignment="left" id="K1a-RG-D3h"/>
+                    </items>
+                    <connections>
+                        <outlet property="excerciseImage" destination="WsP-aI-zzB" id="n8D-IP-Trg"/>
+                        <outlet property="wellDoneLabel" destination="K1a-RG-D3h" id="2Tt-x3-iaY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="582" y="293"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="z7o-Rf-3kA"/>
+    </inferredMetricsTieBreakers>
 </document>
