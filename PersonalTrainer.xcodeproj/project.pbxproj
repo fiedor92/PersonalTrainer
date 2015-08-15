@@ -13,6 +13,12 @@
 		C1FA52CE1B7F2FBC00E315DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52CD1B7F2FBC00E315DF /* Images.xcassets */; };
 		C1FA52D11B7F2FBC00E315DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52CF1B7F2FBC00E315DF /* LaunchScreen.xib */; };
 		C1FA52DD1B7F2FBC00E315DF /* PersonalTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA52DC1B7F2FBC00E315DF /* PersonalTrainerTests.swift */; };
+		C1FA52EF1B7F2FCB00E315DF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA52EE1B7F2FCB00E315DF /* InterfaceController.swift */; };
+		C1FA52F11B7F2FCB00E315DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52F01B7F2FCB00E315DF /* Images.xcassets */; };
+		C1FA52F51B7F2FCB00E315DF /* PersonalTrainer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52F41B7F2FCB00E315DF /* PersonalTrainer WatchKit App.app */; };
+		C1FA52FD1B7F2FCB00E315DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52FB1B7F2FCB00E315DF /* Interface.storyboard */; };
+		C1FA52FF1B7F2FCB00E315DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FA52FE1B7F2FCB00E315DF /* Images.xcassets */; };
+		C1FA53021B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1FA52EA1B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = C1FA52C01B7F2FBC00E315DF;
 			remoteInfo = PersonalTrainer;
 		};
+		C1FA52F61B7F2FCB00E315DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FA52B91B7F2FBC00E315DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FA52F31B7F2FCB00E315DF;
+			remoteInfo = "PersonalTrainer WatchKit App";
+		};
+		C1FA53001B7F2FCB00E315DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FA52B91B7F2FBC00E315DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FA52E91B7F2FCB00E315DF;
+			remoteInfo = "PersonalTrainer WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1FA53091B7F2FCB00E315DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C1FA53021B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C1FA52C11B7F2FBC00E315DF /* PersonalTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		C1FA52D61B7F2FBC00E315DF /* PersonalTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FA52DB1B7F2FBC00E315DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1FA52DC1B7F2FBC00E315DF /* PersonalTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTrainerTests.swift; sourceTree = "<group>"; };
+		C1FA52EA1B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PersonalTrainer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FA52ED1B7F2FCB00E315DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FA52EE1B7F2FCB00E315DF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C1FA52F01B7F2FCB00E315DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1FA52F41B7F2FCB00E315DF /* PersonalTrainer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PersonalTrainer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FA52FA1B7F2FCB00E315DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FA52FC1B7F2FCB00E315DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C1FA52FE1B7F2FCB00E315DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1FA52E71B7F2FCB00E315DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				C1FA52C31B7F2FBC00E315DF /* PersonalTrainer */,
 				C1FA52D91B7F2FBC00E315DF /* PersonalTrainerTests */,
+				C1FA52EB1B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension */,
+				C1FA52F81B7F2FCB00E315DF /* PersonalTrainer WatchKit App */,
 				C1FA52C21B7F2FBC00E315DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				C1FA52C11B7F2FBC00E315DF /* PersonalTrainer.app */,
 				C1FA52D61B7F2FBC00E315DF /* PersonalTrainerTests.xctest */,
+				C1FA52EA1B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension.appex */,
+				C1FA52F41B7F2FCB00E315DF /* PersonalTrainer WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C1FA52EB1B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1FA52EE1B7F2FCB00E315DF /* InterfaceController.swift */,
+				C1FA52F01B7F2FCB00E315DF /* Images.xcassets */,
+				C1FA52EC1B7F2FCB00E315DF /* Supporting Files */,
+			);
+			path = "PersonalTrainer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C1FA52EC1B7F2FCB00E315DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1FA52ED1B7F2FCB00E315DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1FA52F81B7F2FCB00E315DF /* PersonalTrainer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C1FA52FB1B7F2FCB00E315DF /* Interface.storyboard */,
+				C1FA52FE1B7F2FCB00E315DF /* Images.xcassets */,
+				C1FA52F91B7F2FCB00E315DF /* Supporting Files */,
+			);
+			path = "PersonalTrainer WatchKit App";
+			sourceTree = "<group>";
+		};
+		C1FA52F91B7F2FCB00E315DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1FA52FA1B7F2FCB00E315DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				C1FA52BD1B7F2FBC00E315DF /* Sources */,
 				C1FA52BE1B7F2FBC00E315DF /* Frameworks */,
 				C1FA52BF1B7F2FBC00E315DF /* Resources */,
+				C1FA53091B7F2FCB00E315DF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C1FA53011B7F2FCB00E315DF /* PBXTargetDependency */,
 			);
 			name = PersonalTrainer;
 			productName = PersonalTrainer;
@@ -150,6 +241,39 @@
 			productReference = C1FA52D61B7F2FBC00E315DF /* PersonalTrainerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C1FA52E91B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FA53061B7F2FCB00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainer WatchKit Extension" */;
+			buildPhases = (
+				C1FA52E61B7F2FCB00E315DF /* Sources */,
+				C1FA52E71B7F2FCB00E315DF /* Frameworks */,
+				C1FA52E81B7F2FCB00E315DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1FA52F71B7F2FCB00E315DF /* PBXTargetDependency */,
+			);
+			name = "PersonalTrainer WatchKit Extension";
+			productName = "PersonalTrainer WatchKit Extension";
+			productReference = C1FA52EA1B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C1FA52F31B7F2FCB00E315DF /* PersonalTrainer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FA53031B7F2FCB00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainer WatchKit App" */;
+			buildPhases = (
+				C1FA52F21B7F2FCB00E315DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PersonalTrainer WatchKit App";
+			productName = "PersonalTrainer WatchKit App";
+			productReference = C1FA52F41B7F2FCB00E315DF /* PersonalTrainer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					C1FA52D51B7F2FBC00E315DF = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = C1FA52C01B7F2FBC00E315DF;
+					};
+					C1FA52E91B7F2FCB00E315DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C1FA52F31B7F2FCB00E315DF = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				C1FA52C01B7F2FBC00E315DF /* PersonalTrainer */,
 				C1FA52D51B7F2FBC00E315DF /* PersonalTrainerTests */,
+				C1FA52E91B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension */,
+				C1FA52F31B7F2FCB00E315DF /* PersonalTrainer WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FA52E81B7F2FCB00E315DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FA52F51B7F2FCB00E315DF /* PersonalTrainer WatchKit App.app in Resources */,
+				C1FA52F11B7F2FCB00E315DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FA52F21B7F2FCB00E315DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FA52FD1B7F2FCB00E315DF /* Interface.storyboard in Resources */,
+				C1FA52FF1B7F2FCB00E315DF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1FA52E61B7F2FCB00E315DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FA52EF1B7F2FCB00E315DF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = C1FA52C01B7F2FBC00E315DF /* PersonalTrainer */;
 			targetProxy = C1FA52D71B7F2FBC00E315DF /* PBXContainerItemProxy */;
+		};
+		C1FA52F71B7F2FCB00E315DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1FA52F31B7F2FCB00E315DF /* PersonalTrainer WatchKit App */;
+			targetProxy = C1FA52F61B7F2FCB00E315DF /* PBXContainerItemProxy */;
+		};
+		C1FA53011B7F2FCB00E315DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1FA52E91B7F2FCB00E315DF /* PersonalTrainer WatchKit Extension */;
+			targetProxy = C1FA53001B7F2FCB00E315DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				C1FA52D01B7F2FBC00E315DF /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C1FA52FB1B7F2FCB00E315DF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FA52FC1B7F2FCB00E315DF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,6 +568,62 @@
 			};
 			name = Release;
 		};
+		C1FA53041B7F2FCB00E315DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PersonalTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "PersonalTrainer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C1FA53051B7F2FCB00E315DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PersonalTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "PersonalTrainer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C1FA53071B7F2FCB00E315DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PersonalTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1FA53081B7F2FCB00E315DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PersonalTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +649,22 @@
 			buildConfigurations = (
 				C1FA52E41B7F2FBC00E315DF /* Debug */,
 				C1FA52E51B7F2FBC00E315DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1FA53031B7F2FCB00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FA53041B7F2FCB00E315DF /* Debug */,
+				C1FA53051B7F2FCB00E315DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1FA53061B7F2FCB00E315DF /* Build configuration list for PBXNativeTarget "PersonalTrainer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FA53071B7F2FCB00E315DF /* Debug */,
+				C1FA53081B7F2FCB00E315DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
